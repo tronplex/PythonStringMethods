@@ -45,6 +45,13 @@ print(capitalize)
 titled = sentence.title()
 print(titled)
 
+# CHECKS FOR STRING CASE TYPE
+islower = sentence.islower()
+print(islower)
+
+isupper = sentence.isupper()
+print(isupper)
+
 # RETURNS A NEW STRING WITH REPLACEMENTS
 replace = sentence.replace("e","x") 
 print(replace)
@@ -71,6 +78,7 @@ print(exists02)
 # CHECKS IF STRING IS DIGIT TYPE OR NOT
 digit = sentence.isdigit()
 print(digit)
+
 
 # CHECKS IF STRING IS ALPHABETIC CHARACTER TYPE
 letters = sentence.isalpha()
